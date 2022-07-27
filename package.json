@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/eroux13/clarifai-test/issues"
   },
-  "homepage": "https://github.com/eroux13/clarifai-test#readme"
+  "homepage": "https://github.com/eroux13/clarifai-test#readme",
+  "dependencies": {
+    "clarifai-nodejs-grpc": "^8.0.0"
+  }
 }
