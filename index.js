@@ -1,7 +1,9 @@
 // Initialize Clarifai Variables
 const USER_ID = 'eroux13';
+// Require .env to protect PAT
+require('dotenv').config();
 // Your PAT (Personal Access Token) can be found in the portal under Authentification
-const PAT = '1383dc32a41b45d09a7c25e221adece7';
+const PAT = process.env.PAT;
 const APP_ID = 'clarifaiTest';
 // Change these to whatever model and image URL you want to use
 const MODEL_ID = 'general-image-recognition';
