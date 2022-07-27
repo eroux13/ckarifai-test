@@ -1,1 +1,1 @@
-# ckarifai-test
+# clarifai-test
